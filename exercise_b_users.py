@@ -71,3 +71,9 @@ users["Erik"]["lottery_numbers"].sort()
 print(users["Erik"]["lottery_numbers"][4])
 # # Question 6
 users["Avril"]["lottery_numbers"]
+
+#     def test(dictt):
+#     result = {key: [idx for idx in val if not idx % 2]  
+#           for key, val in dictt.items()}   
+#     return result    
+
