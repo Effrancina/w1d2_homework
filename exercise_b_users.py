@@ -71,4 +71,3 @@ users["Erik"]["lottery_numbers"].sort()
 print(users["Erik"]["lottery_numbers"][4])
 # # Question 6
 users["Avril"]["lottery_numbers"]
-]
