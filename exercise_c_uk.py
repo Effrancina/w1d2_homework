@@ -32,7 +32,9 @@ print(united_kingdom)
 #   print(country["name"])
 
 # Question 4
-# total_population = 0
-# for country in united_kingsom:
-#   total_population += country["population"]
-# print(total_population)
+total_population = 0  
+# --> do this first cause you'll need somewhere to add your result
+for country in united_kingdom:
+# += --> add it to the stuff on the end
+   total_population += country["population"]
+print(total_population)

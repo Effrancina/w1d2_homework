@@ -67,7 +67,7 @@ print(users["Erik"]["lottery_numbers"])
 
 # Question 4
 print(users["Avril"]["pets"][0].get("species"))
-# or: print(users["Avril"]["pets"][0]["species"])
+# or, easier: print(users["Avril"]["pets"][0]["species"])
 
 # Question 5
 # sorted_numbers = sorted(users["Erik"]["lottery_numbers"]) why did this not work?
@@ -77,6 +77,13 @@ sorted(users["Erik"]["lottery_numbers"])[0]
 # for loop --> ask Ed
 # min --> ask James
 # variable and min --> ask Jenna
+# this also works:
+# sorted_numbers = sorted(users["Erik"]["lottery_numbers"])
+# print(sorted_numbers)
+# b = users["Erik"]["lottery_numbers"]
+# b.sort()
+# print(b)
+
 
 # # Question 6
 users["Avril"]["lottery_numbers"][0]
@@ -123,3 +130,4 @@ print(users["Erik"]["home_town"])
 #         }
 #       ]
 # }
+
