@@ -28,5 +28,11 @@ united_kingdom.append(dict)
 print(united_kingdom)
 
 # Question 3
+# for country in united_kingdom:
+#   print(country["name"])
 
-
+# Question 4
+# total_population = 0
+# for country in united_kingsom:
+#   total_population += country["population"]
+# print(total_population)
