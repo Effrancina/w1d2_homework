@@ -17,6 +17,8 @@ print(stops)
 #Question 6
 stops.pop(2)
 print(stops)
+# stops.pop(stops.index("Cumbernauld")) also works
+# del stops[stops.index("Cumbernauld")] also works
 #Question 7
 num_items = len(stops)
 print(num_items)
@@ -24,6 +26,7 @@ print(num_items)
 print(sorted(stops))
 #Question 9
 stops.sort(reverse=True)
+# stops.reverse()
 print(stops)
 #Question 10
 for stop in stops:
